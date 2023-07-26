@@ -1,0 +1,10 @@
+android_app {
+    name: "Change",
+    platform_apis: true,
+    srcs: [
+        "src/**/*.java"
+    ],
+    static_libs: [
+        "android.hardware.change-V1-java"
+    ]
+}
